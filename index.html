@@ -6,21 +6,69 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./css/reset.css">
+    <style media="screen">
+    a{
+      text-decoration: none;
+      color: #333;
+    }
+      ul{
+        width:380px;
+      }
+      .item{
+        position: relative;
+        width: 190px;
+        float: left;
+      }
+      .item_txt{
+            line-height: 40px;
+        display: block;
+        padding-left: 50px;
+      }
+      a.item_txt:hover::before{
+background-position: -16px -47px;;
+      }
+      .item_txt::before{
+        left: 0;
+        position: absolute;
+        content: " ";
+        width:40px;
+        height: 40px;
+        display: inline-block;
+
+        background: url(http://www.chebada.com/images/pc_background_icon.png) scroll -16px -89px;
+      }
+
+      .item_txt-one{
+        display: block;
+        line-height: 40px;
+        padding-left: 50px;
+        height: 40px;
+        background: url(http://www.chebada.com/images/pc_background_icon.png) scroll no-repeat -16px -89px;;
+      }
+    </style>
   </head>
   <body>
 <ul>
-  <li>sadfafasd</li>
-  <li>sadfafasd</li>
-  <li>sadfafasd</li>
-  <li>sadfafasd</li>
-  <li>sadfafasd</li>
-  <li>sadfafasd</li>
-  <li>sadfafasd</li>
-  <li>sadfafasd</li>
-  <li>sadfafasd</li>
-  <li>sadfafasd</li>
-  <li>sadfafasd</li>
-  <li>sadfafasd</li>
+  <li class="item"><a class="item_txt"  href="#"><i class="icon-xinshou">新手引导</a></li>
+  <li class="item"><a class="item_txt"  href="#">新手引导</a></li>
+  <li class="item"><a class="item_txt"  href="#">新手引导</a></li>
+  <li class="item"><a class="item_txt"  href="#">新手引导</a></li>
+  <li class="item"><a class="item_txt"  href="#">新手引导</a></li>
+  <li class="item"><a class="item_txt"  href="#">新手引导</a></li>
+  <li class="item"><a class="item_txt"  href="#">新手引导</a></li>
+
+</ul>
+
+
+<ul>
+  <li class="item"><a class="item_txt-one"  href="#">新手引导</a></li>
+  <li class="item"><a class="item_txt-one"  href="#">新手引导</a></li>
+  <li class="item"><a class="item_txt-one"  href="#">新手引导</a></li>
+  <li class="item"><a class="item_txt-one"  href="#">新手引导</a></li>
+  <li class="item"><a class="item_txt-one"  href="#">新手引导</a></li>
+  <li class="item"><a class="item_txt-one"  href="#">新手引导</a></li>
+  <li class="item"><a class="item_txt-one"  href="#">新手引导</a></li>
+
 </ul>
   </body>
 </html>

@@ -64,7 +64,9 @@ video {
   height: auto;
   max-width: 100%;
 }
-
+a{
+      font-style: normal;
+}
 iframe {
   border: 0;
 }
