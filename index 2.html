@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Title</title>
+    <style>
+        *{margin:0px;padding: 0px;}
+        .header{height:110px;background-color: #23be90;color: #fff;}
+        .header-left{float: left;padding-left: 15px;}
+        .city{font-size: 20px;padding-top: 18px;}
+        .station{font-size: 12px;}
+        .train{font-size: 12px;padding-top: 13px;}
+
+        .header-middle{float: left;}
+        .header-middle p{}
+        .nav-img{ position: absolute;
+            left: 37%;top: 25px;}
+        .time-1{font-size: 12px;display: block;padding-top: 20px;px;line-height: 24px;padding-left: 20px;}
+        .time-2{font-size: 12px;padding-left: 7px;}
+
+        .header-right{float: right;text-align: right;padding-right: 15px;}
+        .price{font-size: 12px;padding-top: 13px;}
+
+        .p1{line-height: 42px;font-size: 14px;color: #23be90;border-bottom: 10px #efeff4 solid;padding-left: 15px;}
+        .p1 img{float: right;padding-top:12px;padding-right: 10px; }
+        .p1 span{color: #999999;float: right;padding-right: 5px;}
+        .p2{line-height: 42px;font-size: 16px;color: #000000;padding-left: 15px;border-bottom: 10px #efeff4 solid;}
+        .p2 span{padding-left: 20px;color: #888888;}
+        .p3{line-height: 42px;margin-left: 15px;border-bottom: 1px #efeff4 solid;}
+        .p3 img{float: right;padding-top: 12px;padding-right: 5px;}
+        .p3 span{color: #888888;padding-left: 52px;}
+        .p4{font-size: 16px;display:block;padding-top: 10px;padding-left: 12px;border-bottom: 10px #efeff4 solid;}
+        .p4-1{border: 1px #b2b9c0 solid;font-size: 12px;color: #b2b9c0;padding: 0px 3px 0px;margin-left: 4px;}
+        .p4-2{font-size: 12px;color:#999999;display: inline-block;padding-bottom: 6px;}
+        .p4-3{font-size: 12px;color:#999999;padding-left: 14px;}
+        .delete{padding-left: 15px;padding-top: 20px;float:left;padding-right: 12px;}
+        .p5{border-bottom: 1px #efeff4 solid;margin-left:15px;}
+        .p5-1{padding: 9px 0px 6px;line-height: 42px;}
+        .p5-2{border-radius: 15px;float: right;border: 1px #9bead3 solid;font-size: 12px;padding:4px 12px 4px;
+        background-color: #23be90;color: #ffffff;margin-top: 7px;margin-right: 10px;}
+        .p5-3{border-radius: 15px;float: right;border: 1px #9bead3 solid;font-size: 12px;padding:4px 18px 4px;
+            color: #23be90;margin-top: 7px;margin-right:15px; }
+        .p6{margin-left:15px;line-height: 42px;border-bottom: 1px #efeff4 solid;}
+        .p6 input{padding-left: 50px;font-size: 16px;color: #999999;}
+        .p7{margin-left: 15px;line-height: 42px;border-bottom: 1px #efeff4 solid;}
+        .p7 input{font-size: 16px;color: #999999;padding-left: 17px;}
+        .p8{padding-left: 15px;line-height: 42px;border-bottom: 10px #efeff4 solid;}
+        .p8 input{font-size: 16px;color: #999999;}
+        .p9{padding-left: 15px;border-bottom: 10px #efeff4 solid;padding-top: 5px;}
+        .p9-1{float: left;}
+        .p9-2{font-size: 12px;color: #888888;}
+        .p9-3{}
+        .p9-4{font-size: 16px;color: #ff6540;float: right;display: block;padding-right: 70px;padding-top: 8px}
+        .p9 img{float: left;padding-top: 3px;padding-left: 4px;}
+        .p10{padding-left: 15px;line-height: 42px;}
+        .p10 span{color: #888888;float: right;padding-right: 15px;}
+        .p11{font-size: 12px;color: #999999;padding-left: 15px;line-height: 20px;background-color: #efeff4;padding-top: 10px;padding-bottom: 10px;}
+        .p12{background-color: #43b0b7;line-height: 42px;text-align: center; }
+        .p12 a{text-decoration: none;color: #ffffff;}
+        .clearfix:after{
+            content: ".";
+            display: block;
+            visibility: hidden;
+            height: 0;
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header clearfix">
+            <div class="header-left">
+                <p class="city">苏州</p>
+                <p class="station">苏州北广场站</p>
+                <p class="train">ks5361车次,行驶137公里</p>
+            </div>
+            <div class="header-middle">
+                <p class="nav-img"><img src="./images/1.png" width="95px" height="8px"></p>
+                <p class="time-1">15:50</p>
+                <p class="time-2">3月9日 今天</p>
+            </div>
+            <div class="header-right">
+                <p class="city">无锡</p>
+                <p class="station">无锡</p>
+                <p class="price">30</p>
+            </div>
+        </div>
+        <div class="content">
+                <p class="p1">发车1小时前可在线退票<img src="./images/6.png" width="17px" height="17px"><span>预定须知</span></p>
+                <p class="p2">车站地址<span>金山东路78路</span></p>
+                <p class="p3">乘客<span>每单限购3张</span><img src="./images/2.png" width="17px" height="17px"></p>
+                <img class="delete" src="./images/4.png" width="20px" height="20px">
+                <p class="p4 clearfix"> 孙悟空<span class="p4-1">成人</span><br><span class="p4-2">身份证</span><span class="p4-3">220*********6017</span></p>
+        </div>
+            <form>
+                <p class="p5"><span class="p5-1">取票人</span><span class="p5-3">其他</span><span class="p5-2">孙悟空</span></p>
+
+                <p class="p6">姓名<input type="text" value="取票人姓名"/></p>
+                <p class="p7">证件号码<input type="text" value="取票人证件号码"/></p>
+                <p class="p8">手机号<input type="text" value="" height=""/></p>
+            </form>
+            <p class="p9"><span class="p9-1">一元免单</span><span class="p9-2"><img src="./images/5.png" width="16px" height="16px" </span><span class="p9-4">1</span><br><span class="p9-3">每天5个免单名额，天天免费乘车</span></p>
+            <p class="p10">出行保障<span>优选套餐</span></p>
+            <p class="p11">温馨提示<br>节假日客运高峰；建议提前1一小时到达车站取票；若取票出现异常；请咨询车站工作人员。</p>
+            <p class="p12"><a href="#">提交订单</a></p>
+    </div>
+
+</body>
+</html>
